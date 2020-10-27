@@ -4,7 +4,9 @@ void main()
 { double a,b;
 printf("Enter the degree : ");
 scanf("%lf",&a);
-a=(a*3.14)/180;
+
+
+a=(a*3.14)/1800;
 b=sin(a);
 printf("Sine is %lf",b);
 }
